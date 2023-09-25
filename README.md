@@ -1,8 +1,8 @@
-# Rust For Systems Programmers
+! Rust For Systems Programmers
 
 A Rust tutorial for experienced C and C++ programmers.
 
-Jump to [contents](#contents).
+Jump to [contents](!contents).
 Jump to [contributing](#contributing).
 
 This tutorial is intended for programmers who already know how pointers and
@@ -16,7 +16,7 @@ syntax is pretty similar. The big difference (in my experience) is that the
 sometimes vague concepts of good systems programming are strictly enforced by
 the compiler. This can be infuriating at first - there are things you want to
 do, but the compiler won't let you (at least in safe code), and sometimes these
-things *are* safe, but you can't convince the compiler of that. However, you'll
+things  are* safe, but you can't convince the compiler of that. However, you'll
 quickly develop a good intuition for what is allowed. Communicating your own
 notions of memory safety to the compiler requires some new and sometimes
 complicated type annotations. But if you have a strong idea of lifetimes for
@@ -119,3 +119,4 @@ Please limit width to 80 columns. I am a fan of the Oxford comma.
 
 Don't feel like work has to be perfect to be submitted, I'm happy to edit and
 I'm sure other people will be in the future.
+ 
