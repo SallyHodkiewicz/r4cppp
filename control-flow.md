@@ -1,6 +1,6 @@
-# Control flow
+!!Control flow
 
-## If
+ # If
 
 The `if` statement is pretty much the same in Rust as C++. One difference is
 that the braces are mandatory, but parentheses around the expression being tested
@@ -111,7 +111,7 @@ fn print_all(all: Vec<i32>) {
 Where `enumerate()` chains from the iterator `iter()` and yields the current
 count and the element during iteration.
 
-*The following example incorporates more advanced topics covered in the section
+!The following example incorporates more advanced topics covered in the section
 on [Borrowed Pointers](borrowed.md).* Let's say you have a vector of integers
 and want to call the function, passing the vector by reference and have the
 vector modified in place. Here the `for` loop uses a mutable iterator which
@@ -231,3 +231,4 @@ are always called via the `.` operator (no `->`, more on this in another post).
 We saw a few examples above (`len`, `iter`). We'll go into more detail in the
 future about how they are defined and called. Most assumptions you might make
 from C++ or Java are probably correct.
+ 
